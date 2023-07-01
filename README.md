@@ -1,66 +1,44 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+This is Laravel Project based on https://github.com/mr-devD/PHPProject.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+The goal of project is same, just with using laravel.<br>
+I haven't really focused on making everything look pretty like i did on original one, but still everything is functional and okay looking.<br>
 
-## About Laravel
+It has, LOGIN, REGISTER, CHANGE PASSWORD pages, which are laravel default, not edited<br>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![image](https://github.com/mr-devD/LaravelProject/assets/93098789/9be11a9b-e572-4587-827e-18f96e0c9646)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![image](https://github.com/mr-devD/LaravelProject/assets/93098789/69e7399c-1f60-4519-934f-608262e54611)
+![image](https://github.com/mr-devD/LaravelProject/assets/93098789/201680e5-5e4f-4de8-8711-2067e3da4968)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+MAIN PAGE:
+<br>here executants can see list of tasks they are assigned to and they can access each task
+![image](https://github.com/mr-devD/LaravelProject/assets/93098789/7adfcd73-40b4-4ebf-8e76-b87164ce7ba4)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+ACCESSING TASK: <br>
+On this page, user can see information about task and its attachments which can be downloaded. <br>
+![image](https://github.com/mr-devD/LaravelProject/assets/93098789/eb4d45c6-a8d0-4f2d-9dd3-56989e7ac1cd)
+Second part of the page are COMMENTS, where user can leave a comment about that task.<br>
+![image](https://github.com/mr-devD/LaravelProject/assets/93098789/6696aa01-f0af-424d-8431-83109daf6b79)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+ADMINS AND MANAGERS:<br>
+They have additional buttons on task view page, they can mark task: COMPLETED, CANCELED which will change the task header color.<br>
+They can also EDIT or DELETE task.<br>
+![image](https://github.com/mr-devD/LaravelProject/assets/93098789/45c11e49-c7dd-4728-bfc9-bb2d4b06c5d8)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+PAGE FOR ADDING TASKS:<br>
+![image](https://github.com/mr-devD/LaravelProject/assets/93098789/962e3bbe-415b-4d5d-86d7-8eec7c9945df)
 
-## Laravel Sponsors
+PAGE FOR ADDING TASK GROUPS:<br>
+Here is also possible to edit or delete existing ones.<br>
+![image](https://github.com/mr-devD/LaravelProject/assets/93098789/4e9c4c9e-9082-4fc3-8c4a-19718b8d7b8c)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+USERS PAGE:<br>
+ADMINS can access this page to see a list of all users and they can access single user by clicking users name where he can edit user information.<br>
+![image](https://github.com/mr-devD/LaravelProject/assets/93098789/8b0f18a6-6e6d-4875-aca5-54aae698ed8c)
+![image](https://github.com/mr-devD/LaravelProject/assets/93098789/e98d1a7c-888a-41a3-8fbd-27d46f4f296a)
 
-### Premium Partners
+USER TYPES:<br>
+ADMIN can create new user types and delete or edit existing ones. But it is not possible to edit or delete ADMIN, MANAGER or EXECUTANT type, since they are mandatory for app to work.<br>
+![image](https://github.com/mr-devD/LaravelProject/assets/93098789/411999a0-67bf-4cfa-af98-5244ab6176e2)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
